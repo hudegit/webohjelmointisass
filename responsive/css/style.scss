@@ -3,14 +3,6 @@
 @import "mixins";
 @import "menu";
 
-a {
-    text-decoration: none;
-    &:hover {
-        color: $accent-color;
-        font-weight: bold;
-    }
-}
-
 div#container {
     display: flex;
     flex-direction: column;
