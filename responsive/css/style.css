@@ -9,6 +9,22 @@
   box-sizing: border-box;
 }
 
+nav {
+  display: flex;
+  align-items: center;
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+  height: 40px;
+}
+nav ul {
+  padding-left: 1em;
+}
+nav ul li {
+  display: inline-block;
+  width: 5em;
+  margin-right: 1em;
+}
+
 a {
   text-decoration: none;
 }
